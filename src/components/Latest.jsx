@@ -27,7 +27,7 @@ export default class Latest extends Component {
             <div className="div-component">
 
                 {
-                    <div className="div-name"><h3>Name:<strong> {this.state.movies.title}</strong></h3></div>
+                    <div className="div-movie"><h3>Name:<strong> {this.state.movies.title}</strong></h3></div>
 
 
                 }
