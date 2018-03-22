@@ -1,0 +1,32 @@
+.nav {
+    display: flex;
+}
+.poster-popular {
+    width: 150px;
+    height: 200px;
+}
+.div-popular {
+    display: inline-block;;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    width: 350px;
+    height: 450px;
+    text-align: center;
+
+}
+.description-popular {
+    font-size: 10px;
+}
+
+.button-app {
+    margin-left: 10px;
+}
+.div-component {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+;
+}
+.div-name {
+    width: 500px;
+}
