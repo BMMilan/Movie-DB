@@ -15,7 +15,7 @@ export default class App extends Component {
             <BrowserRouter>
                 <section>
                     <div>
-                        <h1>Movies</h1>
+                        <h1><strong>Movies</strong></h1>
                         <Navigation/>
                         <Switch>
                             <Route exact path='/' component={Popular} />
