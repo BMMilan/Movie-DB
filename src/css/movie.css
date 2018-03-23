@@ -1,0 +1,25 @@
+.div-movie {
+    width: 100%;
+}
+
+.title {
+    max-width: 60%;
+    font-weight: bolder;
+    font-size: 40px;
+    float: left;
+}
+
+.description {
+    float: left;
+    width: 700px;
+}
+
+.picture-movie {
+    margin-top: 20px;
+    margin-right: 20px;
+    max-width: 40%;
+    width: 400px;
+    height: 600px;
+    float: right;
+}
+
