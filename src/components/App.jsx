@@ -7,6 +7,7 @@ import Rated from "./Rated";
 import Upcoming from "./Upcoming";
 import Navigation from "./Navigation";
 import Latest from "./Latest";
+import MovieDetail from "./MovieDetail";
 
 export default class App extends Component {
     render() {
@@ -22,6 +23,7 @@ export default class App extends Component {
                             <Route  path='/nowplaying' component={NowPlaying} />
                             <Route  path='/upcoming' component={Upcoming} />
                             <Route  path='/latest' component={Latest} />
+                            <Route  path='/moviedetail/:id' component={MovieDetail}/>
                         </Switch>
                     </div>
                 </section>
